@@ -19,6 +19,13 @@ export default function Home() {
         </a>
         <p>ML research / systems</p>
         <div className="masthead-links">
+          <a
+            href="/Aleksandr_Medvedev_llm_implementation.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            CV
+          </a>
           <a href="https://github.com/MedvAx-AI" target="_blank" rel="noreferrer">
             GitHub
           </a>
@@ -42,9 +49,19 @@ export default function Home() {
                 My work focuses on model evaluation, routing, and reproducible
                 experiments in Python and PyTorch.
               </p>
-              <a className="availability" href="mailto:medvedguk@gmail.com">
-                Available for internship roles <span>↗</span>
-              </a>
+              <div className="hero-actions">
+                <a className="availability" href="mailto:medvedguk@gmail.com">
+                  Available for internship roles <span>↗</span>
+                </a>
+                <a
+                  className="availability"
+                  href="/Aleksandr_Medvedev_llm_implementation.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View CV (PDF) <span>↗</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -119,6 +136,13 @@ export default function Home() {
           <p>Python · PyTorch · Transformers · FastAPI · Docker · Linux</p>
           <div>
             <a href="mailto:medvedguk@gmail.com">medvedguk@gmail.com ↗</a>
+            <a
+              href="/Aleksandr_Medvedev_llm_implementation.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CV (PDF) ↗
+            </a>
             <a href="https://github.com/MedvAx-AI" target="_blank" rel="noreferrer">
               github.com/MedvAx-AI ↗
             </a>
