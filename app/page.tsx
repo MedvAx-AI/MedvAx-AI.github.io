@@ -29,7 +29,7 @@ export default function Home() {
           <a href="https://github.com/MedvAx-AI" target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a href="mailto:medvedguk@gmail.com">Email</a>
+          <a href="mailto:medv.ax@outlook.com">Email</a>
         </div>
       </header>
 
@@ -50,7 +50,7 @@ export default function Home() {
                 experiments in Python and PyTorch.
               </p>
               <div className="hero-actions">
-                <a className="availability" href="mailto:medvedguk@gmail.com">
+                <a className="availability" href="mailto:medv.ax@outlook.com">
                   Available for internship roles <span>↗</span>
                 </a>
                 <a
@@ -135,7 +135,7 @@ export default function Home() {
         <div className="footer-meta">
           <p>Python · PyTorch · Transformers · FastAPI · Docker · Linux</p>
           <div>
-            <a href="mailto:medvedguk@gmail.com">medvedguk@gmail.com ↗</a>
+            <a href="mailto:medv.ax@outlook.com">medv.ax@outlook.com ↗</a>
             <a
               href="/Aleksandr_Medvedev_llm_implementation.pdf"
               target="_blank"
