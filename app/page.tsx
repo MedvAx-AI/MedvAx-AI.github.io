@@ -8,6 +8,24 @@ const projects = [
     href: "https://github.com/MedvAx-AI/budgetroute-llm",
     linkLabel: "View repository",
   },
+  {
+    number: "02",
+    name: "SemanticSplat",
+    focus: "3D search / semantic grounding",
+    summary:
+      "Natural-language search over 3D scene evidence, with the method, paper, and results presented in an interactive project site.",
+    href: "https://beyond-proximity-public.vercel.app/",
+    linkLabel: "Explore project",
+  },
+  {
+    number: "03",
+    name: "Yacht Resistance MLOps Pipeline",
+    focus: "MLOps / training / serving",
+    summary:
+      "A reproducible yacht resistance prediction pipeline using DVC and MLflow, with FastAPI and Streamlit services deployed through Docker.",
+    href: "https://github.com/MedvAx-AI/pmldl-yacht-mlops",
+    linkLabel: "View repository",
+  },
 ] as const;
 
 export default function Home() {
@@ -106,10 +124,10 @@ export default function Home() {
 
       <section className="work" id="work" aria-labelledby="work-title">
         <div className="section-label">
-          <span>Selected project</span>
-          <span>Repository</span>
+          <span>Selected projects</span>
+          <span>Live project / repositories</span>
         </div>
-        <h2 id="work-title">Budget-aware LLM routing.</h2>
+        <h2 id="work-title">From research to deployment.</h2>
         <div className="project-list">
           {projects.map((project) => (
             <article className="project" key={project.name}>
