@@ -158,6 +158,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 620px) {
   .masthead { grid-template-columns: 1fr 1fr; height: 62px; }
   .masthead p { display: none; }
+  .masthead-links { font-size: 10px; gap: 8px; }
   .hero { grid-template-columns: 1fr; min-height: 0; }
   .rail-label { border-bottom: 1px solid var(--ink); border-right: 0; justify-content: flex-start; padding: 13px 20px; transform: none; writing-mode: initial; }
   .hero-main { min-height: 650px; }

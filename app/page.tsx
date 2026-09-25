@@ -47,6 +47,9 @@ export default function Home() {
           <a href="https://github.com/MedvAx-AI" target="_blank" rel="noreferrer">
             GitHub
           </a>
+          <a href="https://www.kaggle.com/medvax" target="_blank" rel="noreferrer">
+            Kaggle
+          </a>
           <a href="mailto:medv.ax@outlook.com">Email</a>
         </div>
       </header>
@@ -163,6 +166,9 @@ export default function Home() {
             </a>
             <a href="https://github.com/MedvAx-AI" target="_blank" rel="noreferrer">
               github.com/MedvAx-AI ↗
+            </a>
+            <a href="https://www.kaggle.com/medvax" target="_blank" rel="noreferrer">
+              kaggle.com/medvax ↗
             </a>
           </div>
         </div>
