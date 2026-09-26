@@ -14,22 +14,22 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://medvax-ai.github.io"),
-  title: "Aleksandr Medvedev — ML Research / Systems",
+  title: "Aleksandr Medvedev — LLM Research / AI Engineering",
   description:
-    "Computer science student building and evaluating ML systems, with work in model routing, evaluation, and reproducible experiments.",
+    "Applied Artificial Intelligence student researching LLM evaluation and building auditable AI services, RAG systems, and reproducible ML pipelines.",
   openGraph: {
-    title: "Aleksandr Medvedev — ML Research / Systems",
+    title: "Aleksandr Medvedev — LLM Research / AI Engineering",
     description:
-      "Computer science student building and evaluating ML systems.",
+      "Applied AI student working on LLM evaluation, RAG, and reproducible ML systems.",
     type: "website",
     url: "https://medvax-ai.github.io",
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
+    images: [{ url: "/og.png", width: 1731, height: 909 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aleksandr Medvedev — ML Research / Systems",
+    title: "Aleksandr Medvedev — LLM Research / AI Engineering",
     description:
-      "Computer science student building and evaluating ML systems.",
+      "Applied AI student working on LLM evaluation, RAG, and reproducible ML systems.",
     images: ["/og.png"],
   },
 };

@@ -2,18 +2,18 @@ const projects = [
   {
     number: "01",
     name: "BudgetRoute-LLM",
-    focus: "Routing / evaluation / serving",
+    focus: "LLM research / routing / evaluation",
     summary:
-      "A typed system for routing requests between local language models and tracking quality, latency, uncertainty, and provenance for reproducible evaluation.",
+      "Compared five Qwen2.5 routing strategies over 1,000 runs on 500 MMLU questions, using held-out evaluation and bootstrap confidence intervals. Built traceable RAG, abstention, and human review into the service.",
     href: "https://github.com/MedvAx-AI/budgetroute-llm",
     linkLabel: "View repository",
   },
   {
     number: "02",
     name: "SemanticSplat",
-    focus: "3D search / semantic grounding",
+    focus: "Research leadership / 3D search",
     summary:
-      "Natural-language search over 3D scene evidence, with the method, paper, and results presented in an interactive project site.",
+      "Led a four-person research team through a 150-query evaluation across five scenes, with ScanNet and Replica pilots for natural-language 3D search.",
     href: "https://beyond-proximity-public.vercel.app/",
     linkLabel: "Explore project",
   },
@@ -22,7 +22,7 @@ const projects = [
     name: "Yacht Resistance MLOps Pipeline",
     focus: "MLOps / training / serving",
     summary:
-      "A reproducible yacht resistance prediction pipeline using DVC and MLflow, with FastAPI and Streamlit services deployed through Docker.",
+      "Automated DVC, MLflow, FastAPI, and Streamlit delivery with 10 CI tests. The held-out model reached R² 0.993 and RMSE 1.28 on five unseen hulls.",
     href: "https://github.com/MedvAx-AI/pmldl-yacht-mlops",
     linkLabel: "View repository",
   },
@@ -35,10 +35,10 @@ export default function Home() {
         <a className="mark" href="#top" aria-label="Aleksandr Medvedev, home">
           AM<span>.</span>
         </a>
-        <p>ML research / systems</p>
+        <p>LLM research / AI engineering</p>
         <div className="masthead-links">
           <a
-            href="/Aleksandr_Medvedev_llm_implementation.pdf"
+            href="/Aleksandr_Medvedev_LLM_Research.pdf"
             target="_blank"
             rel="noreferrer"
           >
@@ -64,11 +64,11 @@ export default function Home() {
             ML systems<span>.</span>
           </h1>
           <div className="hero-bottom">
-            <p className="role">Computer science student / seeking ML internships</p>
+            <p className="role">Third-year Applied AI student / seeking internships</p>
             <div>
               <p className="statement">
-                My work focuses on model evaluation, routing, and reproducible
-                experiments in Python and PyTorch.
+                I research LLM quality and build auditable AI systems, from
+                held-out evaluation and RAG to automated model deployment.
               </p>
               <div className="hero-actions">
                 <a className="availability" href="mailto:medv.ax@outlook.com">
@@ -76,20 +76,36 @@ export default function Home() {
                 </a>
                 <a
                   className="availability"
-                  href="/Aleksandr_Medvedev_llm_implementation.pdf"
+                  href="/Aleksandr_Medvedev_LLM_Research.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View CV (PDF) <span>↗</span>
+                  Research CV <span>↗</span>
+                </a>
+                <a
+                  className="availability"
+                  href="/Aleksandr_Medvedev_AI_Engineering.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Engineering CV <span>↗</span>
+                </a>
+                <a
+                  className="availability"
+                  href="/Aleksandr_Medvedev_LLM_AI_Agents.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  AI Agents CV <span>↗</span>
                 </a>
               </div>
             </div>
           </div>
         </div>
         <div className="hero-index" aria-label="Target positions">
-          <span>01 / ML Research Engineer Intern</span>
-          <span>02 / ML Systems Engineer Intern</span>
-          <span>03 / Applied ML / LLM Engineer Intern</span>
+          <span>01 / LLM Research Intern</span>
+          <span>02 / AI Engineering Intern</span>
+          <span>03 / AI Agents Intern</span>
         </div>
       </section>
 
@@ -102,23 +118,23 @@ export default function Home() {
           <h2 id="about-title">Reliable models, measured systems.</h2>
           <div className="about-content">
             <p className="about-copy">
-              I’m a computer science student at Innopolis University focused on
-              building reliable ML systems. I work on model evaluation,
-              reproducible experimentation, and efficient Python/PyTorch
-              inference, with a particular interest in LLM quality and routing.
+              I’m a third-year Applied Artificial Intelligence student at
+              Innopolis University (BSc, 2024–2028). I study LLM quality through
+              held-out evaluation and build auditable services with RAG and human
+              review. I have led a research team and shipped reproducible ML pipelines.
             </p>
             <div className="skills" aria-label="Core skills">
               <div>
-                <span>Core</span>
-                <p>Python · PyTorch · Transformers</p>
+                <span>ML & LLMs</span>
+                <p>Python · PyTorch · TensorFlow · Transformers · FAISS</p>
               </div>
               <div>
-                <span>ML practice</span>
-                <p>Model evaluation · experiment design · reproducibility</p>
+                <span>Research</span>
+                <p>Held-out evaluation · bootstrap confidence intervals · RAG</p>
               </div>
               <div>
-                <span>Systems</span>
-                <p>FastAPI · Docker · Linux · GitHub Actions</p>
+                <span>Delivery</span>
+                <p>FastAPI · PostgreSQL · DVC · MLflow · Docker</p>
               </div>
             </div>
           </div>
@@ -152,17 +168,31 @@ export default function Home() {
 
       <footer className="footer">
         <p className="footer-label">Contact / availability</p>
-        <h2>Seeking ML research, systems, and applied LLM roles.</h2>
+        <h2>Seeking LLM research and AI engineering roles.</h2>
         <div className="footer-meta">
-          <p>Python · PyTorch · Transformers · FastAPI · Docker · Linux</p>
+          <p>Innopolis, Russia · Remote preferred · Open to Moscow on-site · 30+ h/week</p>
           <div>
             <a href="mailto:medv.ax@outlook.com">medv.ax@outlook.com ↗</a>
             <a
-              href="/Aleksandr_Medvedev_llm_implementation.pdf"
+              href="/Aleksandr_Medvedev_LLM_Research.pdf"
               target="_blank"
               rel="noreferrer"
             >
-              CV (PDF) ↗
+              Research CV ↗
+            </a>
+            <a
+              href="/Aleksandr_Medvedev_AI_Engineering.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Engineering CV ↗
+            </a>
+            <a
+              href="/Aleksandr_Medvedev_LLM_AI_Agents.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              AI Agents CV ↗
             </a>
             <a href="https://github.com/MedvAx-AI" target="_blank" rel="noreferrer">
               github.com/MedvAx-AI ↗
